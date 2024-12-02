@@ -3,7 +3,7 @@
   [headers.values]
     X-Frame-Options = "DENY"
     default-src = "self" 
-    script-src = "none" 
+    script-src = "self" 
     object-src = "none" 
     style-src = "self" 
     img-src = "self" 
