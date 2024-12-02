@@ -1,0 +1,11 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    default-src = "self" 
+    script-src = "self" 
+    object-src = "none" 
+    style-src = "self" 
+    img-src = "self" 
+    form-action = "https"
+    require-trusted-types-for = "script"
