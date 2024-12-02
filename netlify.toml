@@ -2,11 +2,5 @@
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
-    default-src = "self" 
-    script-src = "self" 
-    object-src = "none" 
-    style-src = "self" 
-    img-src = "self" 
-    form-action = "https"
     require-trusted-types-for = "script"
     content-security-policy = "default-src 'self'; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; form-action https:; require-trusted-types-for 'script';"
