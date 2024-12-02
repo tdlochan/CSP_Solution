@@ -9,3 +9,4 @@
     img-src = "self" 
     form-action = "https"
     require-trusted-types-for = "script"
+    content-security-policy = "object-src 'none';base-uri 'self';script-src 'self' 'nonce-VAcqR-pF-7axcP4lcWJJGw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;"
